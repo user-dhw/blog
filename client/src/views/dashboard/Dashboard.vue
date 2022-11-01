@@ -28,7 +28,7 @@ const adminStore = useUserStore()
 let menus = [
   { name: "文章管理", href: "/dashboard/article" },
   { name: "分类管理", href: "/dashboard/category" },
-  { name: "退出", href: "logout" },
+  { name: "退出系统", href: "logout" },
 ];
 //路由跳转
 const toPage = (menu) => {
